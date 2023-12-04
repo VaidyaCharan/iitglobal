@@ -4395,7 +4395,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #6222CC
+    background-color: #6222CC;
 }
 
 .nav-fill>.nav-link,
@@ -4431,7 +4431,7 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
-    padding-bottom: .5rem
+    padding-bottom: .5rem;
 }
 
 .navbar>.container,

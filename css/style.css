@@ -24,8 +24,8 @@
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    right: 31px;
+    bottom: 85px;
     z-index: 99;
 }
 
@@ -42,7 +42,7 @@
     background-color: orangered;
     border-radius: 50px;
     color: white;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
 }
 
 .name-of-company {
@@ -157,12 +157,12 @@ h6,
 .navbar-brand {
     display: block;
     padding: 3px;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.479);
 }
 
 .init {
     color: orangered;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.466);
 
 }
 
@@ -244,7 +244,7 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
-    padding: 9rem 0;
+    padding: 16rem 0;
     background:
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
@@ -267,7 +267,6 @@ h6,
         padding: 6rem 0 9rem 0;
     }
 }
-
 
 /*** Section Title ***/
 .section-title {
