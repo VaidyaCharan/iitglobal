@@ -444,7 +444,9 @@ h6,
     padding-bottom: 60px;
     background: var(--primary);
 }
-
+.bi{
+    font-size: 30px;
+}
 .service-item .service-icon {
     margin: 0 auto 20px auto;
     width: 100px;
