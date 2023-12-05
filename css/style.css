@@ -192,7 +192,16 @@ h6,
         max-height: 45px;
     }
 }
+::selection {
+    color: #000; /* Text color during selection */
+    background-color: rgba(255, 68, 0, 0.479); /* Background color during selection */
+  }
 
+  /* For Firefox */
+  ::-moz-selection {
+    color: #000;
+    background-color: orangered;
+  }
 @media (min-width: 992px) {
     .navbar-light {
         position: absolute;
@@ -200,7 +209,7 @@ h6,
         top: 0;
         left: 0;
         border-bottom: 1px solid rgba(256, 256, 256, .1);
-        z-index: 999;
+        z-index: 999;   
     }
     
     .sticky-top.navbar-light {
@@ -245,7 +254,7 @@ h6,
 .hero-header {
     margin-bottom: 6rem;
     padding: 12rem 0;
-    animation: changecenterimg 60s infinite ease-in-out;
+    animation: changecenterimg 50s infinite ease-in-out;
 }
 
 @keyframes changecenterimg {
@@ -562,27 +571,7 @@ h6,
     background-repeat: no-repeat;
 }
 
-.animated-rotate {
-    animation: rotate 30s ease-in-out infinite;
-}
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    50% {
-        transform: rotate(180deg);
-    }
-
-    75% {
-        transform: rotate(270deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 /*** Testimonial ***/
 .testimonial-carousel .testimonial-item {
